@@ -1,6 +1,6 @@
 FROM centos/python-36-centos7:latest
 
-USER root
+USER 1001
 
 COPY . /tmp/src
 
