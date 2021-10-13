@@ -1,8 +1,8 @@
 FROM centos/python-36-centos7:latest
 
-#USER ROOT
-RUN chgrp -R 0 /tmp/src && \
-    chmod -R g=u /tmp/src/
+USER ROOT
+#RUN chgrp -R 0 /tmp/src && \
+#    chmod -R g=u /tmp/src/
 
 COPY . /tmp/src
 
