@@ -13,7 +13,7 @@ RUN rm -rf /tmp/src/.git* && \
     chgrp -R 0 /tmp/src && \
     chmod -R g+w /tmp/src
     
-RUN pip install --upgrade pip
+#RUN pip install --upgrade pip
 
 USER 1001
 
